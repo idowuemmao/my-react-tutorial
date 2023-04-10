@@ -1,0 +1,34 @@
+body {
+  background-color: rgba(0, 0, 0, 0.827);
+  display: grid;
+  place-items: center;
+}
+.body {
+  background-color: rgba(0, 0, 0, 0.888) !important;
+  color: white !important;
+  max-width: 300px;
+  max-height: fit-content;
+  /* border: 2px solid white; */
+  box-shadow: 2px 5px 5px 0px rgba(0, 0, 0, 0.947);
+}
+.header {
+  display: grid;
+  place-items: center;
+}
+.profilepic {
+  width: 100%;
+  object-fit: contain;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1rem;
+}
+button {
+  padding: 0.5rem 2.5rem;
+  border-radius: 10px;
+}
+.linkedin {
+  background-color: rgb(41, 160, 208);
+  color: white;
+}

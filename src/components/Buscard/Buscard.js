@@ -1,14 +1,14 @@
-import profilepic from './../../images/mary.jpg'
-import './Buscard.css'
+import "./Buscard.css";
+import Header from "./Header";
+import Body from "./Body";
+import Footer from "./Footer.js";
 
-export default function Buscard(){
-    return(
-        <div>
-            <img src={profilepic} className="profilepic" alt="ProfilePic"/>
-            <h1 className='name'>Laura Smith</h1>
-            <p className='title'>Frontend Developer</p>
-            <small>New York, USA</small>
-            
-        </div>
-    )
+export default function Buscard() {
+  return (
+    <div className="body">
+      <Header />
+      <Body />
+      <Footer />
+    </div>
+  );
 }
