@@ -1,0 +1,39 @@
+body{
+    background-color: rgba(0, 0, 0, 0.882) !important;;
+    color: white;
+}
+.body {
+    margin-left: 1rem;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 1rem;
+}
+.title{
+    font-size: 1.5rem;
+    margin-right: auto;
+}
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    list-style: none;
+}
+.nav-list li:hover{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.facts li{
+    padding-block: 0.5rem;
+}
+.facts li::marker{
+    color: turquoise;
+}
+.logo{
+    max-width: 50px;
+    object-fit: contain;
+}
