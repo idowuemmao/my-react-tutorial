@@ -2,7 +2,7 @@ import "./Buscard.css";
 
 export default function Body() {
   return (
-    <div className="body">
+    <div className="cardbody">
       <h3>About</h3>
       <p>
         I am a programmer that specializes in creating the user interface and
