@@ -30,8 +30,11 @@ body {
 }
 .airbnbpic {
   width: 400px;
-  display: grid;
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* place-items: center; */
+}
+.star {
+  width: 15px;
+  object-fit: contain;
+}
+.image{
+    width: 180px;
 }
