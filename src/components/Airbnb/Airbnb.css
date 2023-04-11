@@ -29,12 +29,38 @@ body {
   font-weight: 1000;
 }
 .airbnbpic {
-  width: 400px;
+  max-width: 400px;
+}
+.title {
+  display: block;
+  text-align: left;
+  font-size: 1.5rem;
+  width: 100%;
+  margin-left: 3rem;
+}
+.card {
+  width: 100%;
+  margin-left: 3rem;
+}
+.card-detail {
+  display: flex;
+  gap: 2px;
+  font-size: 0.8rem;
 }
 .star {
   width: 15px;
   object-fit: contain;
 }
-.image{
-    width: 180px;
+.image {
+  width: 150px;
+}
+.gray {
+  color: gray;
+}
+.bold {
+  font-weight: bold;
+}
+.card p {
+  font-size: 0.75rem;
+  padding: 3px 0;
 }

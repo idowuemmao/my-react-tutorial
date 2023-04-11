@@ -1,11 +1,8 @@
 import "./Airbnb.css";
 import AirbnbLogo from "./../../images/airbnb.png";
 import AirbnbPic from "./../../images/Group77.png";
-import image1 from "./../../images/image12.png";
-import star from "./../../images/Redstar.png";
-
+import Cards from "./Cards";
 export default function Airbnb() {
-  const stars = <img src={star} alt="star" className="star" />;
   return (
     <div className="body">
       <nav className="navbar">
@@ -18,12 +15,7 @@ export default function Airbnb() {
         Join unique interactive activities led by one-of-a-kind hosts-all
         without leaving home.
       </p>
-      <div>
-        <img src={image1} alt="image1" className="image" />
-        <p>
-          {stars} 5.0 <span>(4) . USA</span>
-        </p>
-      </div>
+      <Cards />
     </div>
   );
 }
