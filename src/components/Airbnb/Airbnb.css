@@ -28,6 +28,12 @@ body {
   color: red;
   font-weight: 1000;
 }
+.airbnbbody {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid; */
+  padding: 1rem 2rem;
+}
 .airbnbpic {
   max-width: 400px;
 }
@@ -36,19 +42,20 @@ body {
   text-align: left;
   font-size: 1.5rem;
   width: 100%;
-  margin-left: 3rem;
 }
 .card {
   width: 100%;
-  margin-left: 3rem;
+  padding-left: 2rem;
 }
 .card-detail {
   display: flex;
-  gap: 2px;
+  gap: 3px;
   font-size: 0.8rem;
+  align-items: center;
+  padding: 3px 0;
 }
 .star {
-  width: 15px;
+  width: 12px;
   object-fit: contain;
 }
 .image {
@@ -59,6 +66,7 @@ body {
 }
 .bold {
   font-weight: bold;
+  color: black;
 }
 .card p {
   font-size: 0.75rem;

@@ -9,12 +9,15 @@ export default function Airbnb() {
         <img src={AirbnbLogo} alt="Airbnb Logo" className="logo" />
         <h3>airbnb</h3>
       </nav>
-      <img src={AirbnbPic} alt="Airbnb" className="airbnbpic" />
-      <h1 className="title">Online Experiences</h1>
-      <p>
-        Join unique interactive activities led by one-of-a-kind hosts-all
-        without leaving home.
-      </p>
+      <main className="airbnbbody">
+        <img src={AirbnbPic} alt="Airbnb" className="airbnbpic" />
+        <h1 className="title">Online Experiences</h1>
+        <p>
+          Join unique interactive activities led by one-of-a-kind hosts-all
+          without leaving home.
+        </p>
+      </main>
+
       <Cards />
     </div>
   );
