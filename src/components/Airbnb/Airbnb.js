@@ -7,11 +7,13 @@ import airbnbdata from "./airbnbdata";
 
 export default function Airbnb() {
   const names = ["air", "wind", "weather", "clouds", "water"];
-  const uppercase = names.map((name) => {
-    return name[0].toUpperCase() + name.slice(1);
-  });
-  console.log(uppercase);
-  // console.log(name);
+  // const uppercase = names.map((name) => {
+  //   return name[0].toUpperCase() + name.slice(1);
+  // });
+  // console.log(uppercase);
+  const htmlTag = names.map((name) => `<p>${name}</p>`);
+  console.log(htmlTag);
+
   return (
     <div className="body">
       <nav className="navbar">
