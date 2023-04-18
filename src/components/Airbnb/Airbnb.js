@@ -12,18 +12,25 @@ export default function Airbnb() {
   // console.log(uppercase);
   // const htmlTag = names.map((name) => `<p>${name}</p>`);
   // console.log(htmlTag);
+
   const cardElement = airbnbdata.map((card) => {
     return (
-      <Cards key={card.id} img={card.coverImg} rating={card.stats.rating} />
+      <Cards
+        key={card.id}
+        title={card.title}
+        img={card.coverImg}
+        location={card.location}
+        price={card.price}
+        rating={card.stats.rating}
+        reviewCount={card.stats.reviewCount}
+      />
     );
   });
-  console.log(cardElement);
   return (
     <div className="body">
       <Navbar />
       <Body />
-      <Cards />
-      {/* {cardElement} */}
+      <div className="card-contact">{cardElement}</div>
     </div>
   );
 }

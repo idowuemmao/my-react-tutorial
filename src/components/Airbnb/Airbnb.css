@@ -47,6 +47,7 @@ body {
 }
 .card-contact {
   display: flex;
+  flex-direction: row;
   width: 100%;
 }
 .title {
@@ -72,9 +73,9 @@ body {
   top: 765px;
 }
 .airbnbinfo {
-  height: 56px;
   width: 320px;
   font-family: Poppins;
+  gap: 4rem;
   font-size: 16px;
   font-weight: 300;
   line-height: 18px;
@@ -83,28 +84,31 @@ body {
   top: 416px;
   border-radius: nullpx;
 }
-.card-detail {
-  display: flex;
-  gap: 3px;
+.card-details {
+  /* display: flex; */
+  gap: 1rem;
   font-size: 0.8rem;
   align-items: center;
   padding: 3px 0;
+  border: 2px solid;
 }
 .star {
   width: 12px;
   object-fit: contain;
 }
 .image {
-  width: 150px;
+  max-width: 150px;
 }
 .gray {
   color: gray;
+  font-size: 1rem;
 }
 .bold {
   font-weight: bold;
   color: black;
 }
 .card p {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   padding: 3px 0;
+  width: 100%;
 }

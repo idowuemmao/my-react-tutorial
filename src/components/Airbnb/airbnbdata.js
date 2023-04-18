@@ -1,40 +1,38 @@
 import image1 from "./../../images/image12.png";
+import image2 from "./../../images/pauline.jpg";
 
 const airbnbdata = [
   {
     id: 1,
     title: "Life lessons with Katie Zaferes",
     price: 136,
-    coverImg: { image1 },
+    coverImg: image1,
     stats: {
-      rating: 1,
-      reviewCount: 1,
+      rating: 5.0,
+      reviewCount: 6,
     },
-    quantity: 1,
     location: "USA",
   },
   {
     id: 2,
-    title: "Life lessons with Harry Mague",
-    price: 136,
-    coverImg: { image1 },
+    title: "Learn wedding photography",
+    price: 125,
+    coverImg: image1,
     stats: {
-      rating: 1,
-      reviewCount: 1,
+      rating: 5.0,
+      reviewCount: 30,
     },
-    quantity: 1,
     location: "China",
   },
   {
     id: 3,
-    title: "Life lessons with Emmy Grant",
-    price: 136,
-    coverImg: { image1 },
+    title: "Group Mountain Bike",
+    price: 50,
+    coverImg: image1,
     stats: {
-      rating: 1,
-      reviewCount: 1,
+      rating: 4.8,
+      reviewCount: 2,
     },
-    quantity: 1,
     location: "Canada",
   },
 ];
