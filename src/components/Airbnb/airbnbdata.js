@@ -1,5 +1,5 @@
 import image1 from "./../../images/image12.png";
-import image2 from "./../../images/pauline.jpg";
+import image2 from "./../../images/tunde.jpg";
 
 const airbnbdata = [
   {
