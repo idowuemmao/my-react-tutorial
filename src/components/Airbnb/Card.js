@@ -6,7 +6,7 @@ export default function Cards(props) {
   return (
     <div className="card">
       <img src={props.img} alt="card image" className="image" />
-      <div className="card-details">
+      <div clasfsName="card-details">
         <div className="airbnbinfo">
           <img src={star} alt={star} className="star" />
           <span className="">{props.rating} </span>
