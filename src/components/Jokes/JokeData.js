@@ -5,23 +5,24 @@ const jokes = [
     punchline: "What do you think about this comment on this comment",
   },
   {
-    id: 1,
+    id: 2,
     setup: "Everything is good",
     punchline: "What do you think about this comment on this comment",
   },
   {
-    id: 1,
+    id: 3,
     setup: "Everything is good",
     punchline: "What do you think about this comment on this comment",
   },
   {
-    id: 1,
+    id: 3,
     setup: "Everything is good",
     punchline: "What do you think about this comment on this comment",
   },
   {
-    id: 1,
+    id: 4,
     setup: "Everything is good",
     punchline: "What do you think about this comment on this comment",
   },
 ];
+export default jokes;
