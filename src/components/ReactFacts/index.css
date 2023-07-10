@@ -5,7 +5,7 @@ body{
 .body {
     margin-left: 1rem;
 }
-.nav{
+.nav, .dark{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
